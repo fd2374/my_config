@@ -1,0 +1,4 @@
+content="$(cat)"
+
+echo "$content" | xclip -i -selection clipboard
+echo "$content" | xclip -i -selection primary
